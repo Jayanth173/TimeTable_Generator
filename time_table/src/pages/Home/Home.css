@@ -1,0 +1,81 @@
+/* src/Home.css */
+.home {
+    padding: 5rem 1rem 1rem; /* Adjust for fixed navbar */
+    max-width: 100%; /* Set max-width to 100% to match the width of the navbar */
+    margin: 0 auto;
+  }
+  
+  .form-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 600px; /* Adjust maximum width as needed */
+    margin: 0 auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  input {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 0.6rem;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover{
+    background-color: black;
+  }
+.del:hover{
+  background-color: red;
+}
+
+  .subject-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .subject-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 0.75rem; /* Increased padding */
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subject-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+  
+  .subject-buttons {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .subject-list button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem; /* Ensures consistent padding for buttons */
+  }
+  
+.label{
+    font-size: 18px;
+    padding: 0px;
+    margin-top: 5px;
+}
